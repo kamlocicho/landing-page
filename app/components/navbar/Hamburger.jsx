@@ -10,8 +10,8 @@ const Hamburger = ({ isOpen, onClick }) => {
             borderRadius="full"
             icon={!isOpen ? <HamburgerIcon boxSize={7} /> : <CloseIcon boxSize={5} />}
             _active='none'
-            background='rgba(0, 0, 0, .7)'
-            position='absolute'
+            background='rgba(15, 15, 15, .7)'
+            position='fixed'
             top={30}
             right={30}
             color='#fff'
